@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_ordered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ordered Items"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mobiles"
+        android:textSize="30dp"
+        android:textColor="@color/purple_500"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/mob_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter title of mobile"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/mob_old_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter old price of mobile"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/mob_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter price of mobile"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <ImageView
+        android:src="@drawable/uploadicon"
+        android:id="@+id/mobImage"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:onClick="imageView_click"/>
+
+    <Button
+        android:id="@+id/btnAddMob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Mobile"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cameras"
+        android:textSize="30dp"
+        android:textColor="@color/purple_500"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/cam_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter title of camera"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/cam_old_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter old price of camera"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/cam_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter price of camera"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+    <ImageView
+        android:src="@drawable/uploadicon"
+        android:id="@+id/camImage"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:onClick="imageView_click"/>
+    <Button
+        android:id="@+id/btnAddCam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Camera"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Labtops"
+        android:textSize="30dp"
+        android:textColor="@color/purple_500"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/lab_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter title of labtop"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/lab_old_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter old price of labtop"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/lab_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter price of laptop"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <ImageView
+        android:src="@drawable/uploadicon"
+        android:id="@+id/labImage"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:onClick="imageView_click"/>
+
+    <Button
+        android:id="@+id/btnAddLab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Laptop"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SmartWatches"
+        android:textSize="30dp"
+        android:textColor="@color/purple_500"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/watch_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter title of watch"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/watch_old_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter old price of smartwatch"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/watch_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter price of watch"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <ImageView
+        android:src="@drawable/uploadicon"
+        android:id="@+id/watchImage"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:onClick="imageView_click"/>
+    <Button
+        android:id="@+id/btnAddWatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Smart Watch"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GameConsole"
+        android:textSize="30dp"
+        android:textColor="@color/purple_500"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/GC_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter title of GameConsole"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/GC_old_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter old price of mobile"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/GC_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter price of GameConsole"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <ImageView
+        android:src="@drawable/uploadicon"
+        android:id="@+id/gameImage"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:onClick="imageView_click"/>
+
+    <Button
+        android:id="@+id/btnAddGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add GameConsole"
+        android:layout_margin="5dp"/>
+</LinearLayout>
+</ScrollView>
